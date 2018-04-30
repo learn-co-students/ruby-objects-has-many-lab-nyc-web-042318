@@ -9,8 +9,11 @@ class Post
   end
 
   def author_name
-    #Cant get to return NIL
-    self.name
+    if self.author.name =[]
+      return nil
+    else
+      self.author.name
+    end
   end
 
 end
